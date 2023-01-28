@@ -20,6 +20,6 @@ There's a `Fetch More` button at the bottom of a list. We need to enable this bu
 
 ## Solution
 
-This demo implementation doesn't use a second query. While fetching each page it retrieves one more record than the required page size. With this approach, the maximum number of pages fetched twice is equal to the number of page requests. A more detailed explanation is attached below.
+This demo implementation doesn't use a second query. While fetching each page it retrieves one more record than the required page size. With this approach, the maximum number of records fetched twice is equal to the number of page requests. A more detailed explanation is attached below.
 
 ![eager-fetching-one-more](prisma-fetch-more.png)
